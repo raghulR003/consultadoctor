@@ -1,0 +1,48 @@
+.about {
+    padding: 2rem;
+    text-align: center;
+    width: 60vw;
+    margin: 0 20vw;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 1.5rem;
+}
+
+.about p {
+    font-size: 1.25rem;
+    color: black;
+    margin-bottom: 1.5rem;
+}
+
+.about .highlight {
+    color:rgb(62, 167, 237);
+    font-weight: bold;
+}
+
+.about .image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.about .image-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about .quote {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.about .quote-author {
+    margin-top: 0.5rem;
+    font-weight: bold;
+}

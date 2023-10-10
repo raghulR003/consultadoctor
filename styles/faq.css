@@ -1,0 +1,25 @@
+.faq {
+    padding: 2rem;
+    text-align: center;
+}
+
+.faq h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.faq .question {
+    margin-bottom: 2rem;
+}
+
+.faq .question h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.faq .question p {
+    font-size: 1.2rem;
+    color: rgb(62, 167, 237);
+}

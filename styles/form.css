@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.quiz {
+    padding: 2rem;
+    text-align: center;
+}
+
+.quiz h2 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.form-box {
+    max-width: 60vw;
+    margin: 0 auto;
+    background-color: rgb(62, 167, 237);;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.question {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem;
+    padding-left: 1.5rem;
+    border-radius: 5%;
+    border: none;
+    outline: none;
+}
+
+.question label {
+    position: absolute;
+    left: 0%;
+    color:  black;
+}
+
+
+.submit-button {
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: none;
+    padding: 1rem;
+    border-radius: 5%;
+    background-color: rgb(62, 167, 237);
+    color: white;
+}
+
+.submit-button:hover {
+    background-color: black;
+}
